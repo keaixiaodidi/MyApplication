@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
 import com.example.myapplication.ui.MainViewModel
@@ -24,5 +25,9 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.container, ChooseAreaFragment())
                 .commit()
         }
+
+        Log.i("lalala 1")
+
+        Log.i("lalala 2")
     }
 }
