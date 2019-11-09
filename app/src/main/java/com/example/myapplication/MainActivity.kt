@@ -26,8 +26,5 @@ class MainActivity : AppCompatActivity() {
                 .commit()
         }
 
-        Log.i("lalala 1")
-
-        Log.i("lalala 2")
     }
 }
